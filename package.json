@@ -1,0 +1,15 @@
+{
+  "name": "now-apps",
+  "version": "1.0.0",
+  "description": "learn how to deploy with now",
+  "main": "index.js",
+  "repository": "git@github.com:Zacaria/now-apps.git",
+  "author": "Zacaria <z@havesomecode.io>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "deploy": "now && now alias"
+  },
+  "dependencies": {
+    "now": "^12.1.5"
+  }
+}
