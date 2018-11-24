@@ -1,11 +1,12 @@
 {
   "version": 2,
+  "name": "now-apps",
   "builds": [
     { "src": "node/index.js", "use": "@now/node" },
     { "src": "go/index.go", "use": "@now/go" }
   ],
   "routes": [
     { "src": "/go", "dest": "/go/" },
-    { "src": "/node", "dest": "/node/" }
+    { "src": "/node", "dest": "/node/index.js" }
   ]
 }
